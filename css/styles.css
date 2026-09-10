@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+body{
+
+    background-color: #252628;
+
+}
+
+
+nav {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: space-between; /* Empurra o logo para a esquerda e o restante para a direita */
+  padding: 1rem 2rem;
+  background-color: #252628;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Div container para agrupar os links da direita */
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* Espaçamento uniforme entre os links */
+}
+
+/* Estilização base para os links */
+nav a {
+  text-decoration: none;
+  color: #d29f22;
+  font-size: 1.4rem;
+  font-family: "Bungee", sans-serif;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Estilo específico do Logo */
+#Logo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #d29f22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
