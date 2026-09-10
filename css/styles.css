@@ -35,9 +35,9 @@ nav a {
   transition: color 0.2s ease;
 }
 
-nav a:hover {
-  color: #007bff;
-}
+/*nav a:hover {
+  
+}*/
 
 /* Estilo específico do Logo */
 #Logo {
@@ -46,42 +46,41 @@ nav a:hover {
   color: #d29f22;
 }
 
+/* Código para customizar o produto*/ 
+
+.product-card h2 {
+color: #d29f22;
+
+}
+
+ .preco{
+
+font-family: 'Bungee', sans-serif;
+font-size: 30px;
+
+
+}
+
+
+.hoodie {
+
+
+max-width: 230px;
+max-height: 230px;
+
+
+
+}
+
+.product-card{
+
+border: solid 4px;
+max-width: 300px;
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 
 
