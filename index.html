@@ -10,166 +10,70 @@
 <body>
     
 
-<nav>
-  <a href="/index.html" id="Logo">Olha que Bonita</a>
-  
-  <div class="nav-links">
-    <a href="/index.html" class="menu">Início</a>
-    <a href="/categorias.html" class="Categorias">Categorias</a>
-    <a href="sobre.html" class="sobre">Sobre</a>
-  </div>
-</nav>
 
-
-
-<h1>Como será o Carrossel</h1>
-
-<div class="product-card">
-
-
-  <h2 class="subtitulo">Moletom Hoodie Branco</h2>
-  <p class="preco">Preço: R$ 299,00</p>
-  <p><em>Limite de 5 unidades por cliente</em></p>
-
-  <label for="quantity">Quantidade:</label>
-  <input 
-    type="number" 
-    id="quantity" 
-    value="1" 
-    min="1" 
-    max="5"
-  >
-  
-  
-</div>
-
-<script>
-  const MAX_LIMIT = 5;
-  const quantityInput = document.getElementById('quantity');
-  const addToCartBtn = document.getElementById('add-to-cart-btn');
-  const errorMessage = document.getElementById('error-message');
-
-  // Trava a alteração direta via campo numérico
-  quantityInput.addEventListener('input', () => {
-    let currentVal = parseInt(quantityInput.value, 10);
-
-    if (currentVal > MAX_LIMIT) {
-      quantityInput.value = MAX_LIMIT;
-      showError(`Você só pode comprar no máximo ${MAX_LIMIT} unidades deste produto.`);
-    } else if (currentVal < 1 || isNaN(currentVal)) {
-      quantityInput.value = 1;
-      clearError();
-    } else {
-      clearError();
-    }
-  });
-
-  // Validação ao clicar no botão de compra
-  addToCartBtn.addEventListener('click', () => {
-    const selectedQuantity = parseInt(quantityInput.value, 10);
-
-    if (selectedQuantity > MAX_LIMIT) {
-      showError(`Limite excedido! O máximo permitido é ${MAX_LIMIT}.`);
-      return;
-    }
-
-    alert(`Sucesso! ${selectedQuantity} item(ns) adicionado(s) ao carrinho.`);
-  });
-
-  function showError(msg) {
-    errorMessage.textContent = msg;
-    errorMessage.style.display = 'block';
-  }
-
-  function clearError() {
-    errorMessage.textContent = '';
-    errorMessage.style.display = 'none';
-  }
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <header>
+    <h1>QBonita</h1>
+    <h2>Coleção — Primavera</h2>
+  </header>
+
+  <nav class="filtros">
+    <button class="ativo">Todos</button>
+    <button>Camisas</button>
+    <button>Calças</button>
+    <button>Vestidos</button>
+    <button>Acessórios</button>
+  </nav>
+
+
+  <main>
+    <div class="grade-produtos">
+
+      <article class="produto">
+        <div class="imagem">
+          <img src="" alt="Nome do produto">
+        </div>
+        <div class="info">
+          <p class="nome">Nome do produto</p>
+          <p class="preco">R$ 0,00</p>
+        </div>
+      </article>
+
+      <article class="produto">
+        <div class="imagem">
+          <img src="" alt="Nome do produto">
+        </div>
+        <div class="info">
+          <p class="nome">Nome do produto</p>
+          <p class="preco">R$ 0,00</p>
+        </div>
+      </article>
+
+      <article class="produto">
+        <div class="imagem">
+          <img src="" alt="Nome do produto">
+        </div>
+        <div class="info">
+          <p class="nome">Nome do produto</p>
+          <p class="preco">R$ 0,00</p>
+        </div>
+      </article>
+
+      <article class="produto">
+        <div class="imagem">
+          <img src="" alt="Nome do produto">
+        </div>
+        <div class="info">
+          <p class="nome">Nome do produto</p>
+          <p class="preco">R$ 0,00</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+<footer>
+    <p>© 2026 Nome da Marca — Todos os direitos reservados</p>
+</footer>
 
 
 </body>
