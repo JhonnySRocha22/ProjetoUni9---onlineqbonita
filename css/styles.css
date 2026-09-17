@@ -55,28 +55,20 @@ color: #d29f22;
 
  .preco{
 
-font-family: 'Bungee', sans-serif;
-font-size: 30px;
+    font-family: 'Bungee', sans-serif;
+    font-size: 16px;
 
 
 }
 
 
-.hoodie {
 
-
-max-width: 230px;
-max-height: 230px;
-
-
-
-}
 
 .product-card{
 
 border: solid 4px;
 max-width: 300px;
-
+border-radius: 10px;
 
 
 
@@ -84,68 +76,24 @@ max-width: 300px;
 
 
 
+em {
 
 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #d29f22;
 
 
+}
 
 
+.subtitulo {
 
+font-family: 'Bungee', sans-serif;
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
