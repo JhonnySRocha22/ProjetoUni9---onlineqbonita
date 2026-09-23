@@ -42,7 +42,7 @@ nav a {
 /* Estilo específico do Logo */
 #Logo {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #d29f22;
 }
 
@@ -57,20 +57,20 @@ color: #d29f22;
 
     font-family: 'Bungee', sans-serif;
     font-size: 16px;
-
+    color: #d29f22;
 
 }
 
 
 
 
-.product-card{
+.produto{
 
 border: solid 4px;
 max-width: 300px;
 border-radius: 10px;
-
-
+width: 250px;
+overflow: hidden;
 
   }
 
@@ -88,12 +88,24 @@ em {
 }
 
 
-.subtitulo {
+.nome {
 
 font-family: 'Bungee', sans-serif;
+color: #b98c19;
 
 
 
 
+}
 
+
+.produto-imagem {
+  width: 80%;
+  height: 380px; /* ajuste conforme seu grid */
+  object-fit: cover; /* corta a imagem mantendo a proporção, sem distorcer */
+  object-position: center center; /* foca no topo, bom pra roupas (mostra a peça inteira) */
+  display: block;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
 }
