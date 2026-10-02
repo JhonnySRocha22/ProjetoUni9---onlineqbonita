@@ -35,9 +35,9 @@ nav a {
   transition: color 0.2s ease;
 }
 
-/*nav a:hover {
-  
-}*/
+nav a:hover {
+  color: #5C7AFF;
+}
 
 /* Estilo específico do Logo */
 #Logo {
@@ -46,66 +46,19 @@ nav a {
   color: #d29f22;
 }
 
-/* Código para customizar o produto*/ 
+.produto-card{
 
-.product-card h2 {
-color: #d29f22;
-
-}
-
- .preco{
-
-    font-family: 'Bungee', sans-serif;
-    font-size: 16px;
-    color: #d29f22;
-
-}
-
-
-
-
-.produto{
-
-border: solid 4px;
-max-width: 300px;
-border-radius: 10px;
-width: 250px;
-overflow: hidden;
-
-  }
-
-
-
-em {
-
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #d29f22;
-
-
-}
-
-
-.nome {
-
-font-family: 'Bungee', sans-serif;
-color: #b98c19;
-
+  border: #d29f22;
 
 
 
 }
 
+.imagem{
 
-.produto-imagem {
-  width: 80%;
-  height: 380px; /* ajuste conforme seu grid */
-  object-fit: cover; /* corta a imagem mantendo a proporção, sem distorcer */
-  object-position: center center; /* foca no topo, bom pra roupas (mostra a peça inteira) */
-  display: block;
-  border-radius: 8px;
-  max-width: 100%;
-  max-height: 100%;
+  width: 300px;
+  height: 400px;
+
+
 }
+
