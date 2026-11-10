@@ -1,28 +1,169 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css">
-    
-</head>
-<body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo Q'Bonita – Moda feminina no atacado</title>
 
-  <nav class="nav">
-    <div class="nav-links">
-    <a href="index.html"id="Logo">QBonita</a>
-    <a href="">Início</a>
-    <a href="">Categorias</a>
-    <a href="">Sobre</a>
+    <!-- Estilos (cores, tamanhos, layout) -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ================= INÍCIO DO CATÁLOGO ================= -->
+    <div id="qb">
+      <header class="top">
+        <a class="brand" href="#qb-topo"><img class="lg" alt="QBonita" /></a>
+        <nav class="tnav">
+          <a href="#qb-pecas">Peças</a><a href="#qb-pol">Compra</a><a href="#qb-contato">Contato</a>
+        </nav>
+      </header>
+      <section class="hero" id="qb-topo">
+        <div class="hero-t">
+          <span class="tag">Atacado · Brás, São Paulo</span>
+          <h1>Moda feminina que vende</h1>
+          <p>
+            Camisetas, calças, saias e blusas com preço de atacado. Escolha as peças e envie o
+            pedido pelo WhatsApp.
+          </p>
+          <div class="hb">
+            <a class="b1" href="#qb-pecas">Ver as peças</a
+            ><a class="b2" href="#qb-pol">Como comprar</a>
+          </div>
+        </div>
+        <div class="hv">
+          <div class="ha hs2" aria-hidden="true"><img id="qb-s2" alt="" /></div>
+          <div class="ha hs1" aria-hidden="true"><img id="qb-s1" alt="" /></div>
+          <div class="ha ham" id="qb-hm" data-open="paete" tabindex="0">
+            <div class="hc">
+              <b id="qb-hn"></b><span id="qb-hp"></span><em>Toque para escolher cor e tamanho</em>
+            </div>
+          </div>
+          <div class="hdots" id="qb-hdots"></div>
+        </div>
+      </section>
+      <div class="mq" aria-hidden="true">
+        <div>
+          Camisetas ✦ Calças ✦ Atacado ✦ Pedido pelo WhatsApp ✦ Camisetas ✦ Calças ✦ Atacado ✦
+          Pedido pelo WhatsApp ✦ Camisetas ✦ Calças ✦ Atacado ✦ Pedido pelo WhatsApp ✦ Camisetas ✦
+          Calças ✦ Atacado ✦ Pedido pelo WhatsApp ✦ Camisetas ✦ Calças ✦ Atacado ✦ Pedido pelo
+          WhatsApp ✦ Camisetas ✦ Calças ✦ Atacado ✦ Pedido pelo WhatsApp ✦ Camisetas ✦ Calças ✦
+          Atacado ✦ Pedido pelo WhatsApp ✦ Camisetas ✦ Calças ✦ Atacado ✦ Pedido pelo WhatsApp ✦
+        </div>
+      </div>
+      <section class="sec" id="qb-pol">
+        <h2 class="tit">Como funciona a compra</h2>
+        <p class="sub">Venda no atacado. Veja as regras antes de montar o seu pedido.</p>
+        <div class="pol">
+          <div class="pc rv">
+            <b>3</b>
+            <h3>Loja física</h3>
+            <p>Mínimo de 3 peças.</p>
+          </div>
+          <div class="pc rv">
+            <b>6</b>
+            <h3>Envio</h3>
+            <p>Mínimo de 6 peças.</p>
+          </div>
+          <div class="pc rv">
+            <h3>Pagamento na loja</h3>
+            <p>Cartão de crédito e débito, PIX e dinheiro.</p>
+          </div>
+          <div class="pc rv">
+            <h3>Pagamento do envio</h3>
+            <p>Somente PIX.</p>
+          </div>
+          <div class="pc rv">
+            <h3>Frete</h3>
+            <p>Por correio, por conta do cliente. Envios na região do Brás: sem custo.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sec" id="qb-pecas" style="padding-top: 8px">
+        <h2 class="tit">Nossas peças</h2>
+        <p class="sub">Toque na foto da peça para escolher cor, tamanho e quantidade.</p>
+        <div class="how">
+          <div><i>1</i>Toque na peça que você gostou</div>
+          <div><i>2</i>Escolha cor e tamanho</div>
+          <div><i>3</i>Adicione ao carrinho</div>
+          <div><i>4</i>Envie o pedido pelo WhatsApp</div>
+        </div>
+        <div class="cats">
+          <button class="cat" data-cat="c" aria-pressed="false">Camisetas</button
+          ><button class="cat" data-cat="p" aria-pressed="false">Calças</button>
+        </div>
+        <div id="qb-fl"></div>
+        <div class="bar">
+          <span id="qb-n"></span><button class="lim" data-lim="1">Limpar filtros</button>
+        </div>
+        <div class="grid" id="qb-grid"></div>
+      </section>
+      <section class="car">
+        <h2>Looks da coleção</h2>
+        <div class="trk" id="qb-trk"></div>
+        <div class="arr">
+          <button data-sc="-1" aria-label="Anterior">‹</button
+          ><button data-sc="1" aria-label="Próximo">›</button>
+        </div>
+      </section>
+      <section class="sec info" id="qb-contato">
+        <div>
+          <img class="lg" alt="QBonita" style="height: 74px" />
+          <p style="margin-top: 12px">Moda feminina com estilo e preço de atacado.</p>
+        </div>
+        <div>
+          <h2>Endereço</h2>
+          <p>Rua João Teodoro, 1122, Loja 134s<br />Shopping New Mall</p>
+          <a class="bt" id="qb-maps" target="_blank" rel="noopener" href="#"
+            >Abrir no Google Maps</a
+          >
+        </div>
+        <div>
+          <h2>Contato</h2>
+          <p>WhatsApp: (11) 94860-3326</p>
+          <a class="bt g" id="qb-wa" target="_blank" rel="noopener" href="#">Chamar no WhatsApp</a>
+        </div>
+        <div>
+          <h2>Redes sociais</h2>
+          <p>@onlineqbonita_</p>
+          <a class="bt" id="qb-ig" target="_blank" rel="noopener" href="#">Ver no Instagram</a>
+        </div>
+      </section>
+      <button class="fab" id="qb-fab" type="button" aria-label="Abrir carrinho">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M5 8h14l-1 12H6L5 8z" />
+          <path d="M9 8V6a3 3 0 0 1 6 0v2" /></svg
+        ><span id="qb-ft">R$ 0,00</span><span class="cnt" id="qb-cn">0</span>
+      </button>
+      <div class="ov" id="qb-ov"></div>
+      <div class="mod" id="qb-mod" role="dialog" aria-modal="true"></div>
+      <aside class="gv" id="qb-gv" aria-label="Carrinho">
+        <header>
+          <h2>Seu pedido</h2>
+          <button data-fc="1" aria-label="Fechar">&times;</button>
+        </header>
+        <div class="its" id="qb-its"></div>
+        <div class="gf">
+          <input id="qb-nome" placeholder="Seu nome" autocomplete="name" /><textarea
+            id="qb-obs"
+            rows="2"
+            placeholder="Observações"
+          ></textarea>
+          <div class="tot"><span>Total</span><span id="qb-tt">R$ 0,00</span></div>
+          <div class="min" id="qb-min"></div>
+          <button class="send" id="qb-send" type="button">Enviar pedido pelo WhatsApp</button>
+        </div>
+      </aside>
     </div>
-  </nav>
+    <!-- ================= FIM DO CATÁLOGO ================= -->
 
-<div class="produto-card">
-    <img class="imagem" src="/imagens/teste1.jpg" alt="">
-</div>
-
-
-
-</body>
+    <!-- Funcionalidades (filtros, carrinho, WhatsApp) -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
